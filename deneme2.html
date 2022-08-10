@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLAÇ YANETKİ BİLDİRİ FORMU</title>
+    
+</head>
+<body style="background-color:grey;" >
+
+  <div style="background-color:white;">
+    <div>
+      
+      <h1 style= "color:blue; padding:20px;">İLAÇ YAN ETKİ BİLDİRİ FORMU</h1>
+    </div>
+    <div>
+  <p style="color:red; height:10px;">*Lütfen bilgileri eksiksiz ve doğru giriniz!</p><br>
+ <div style="font-size:20px; solid; padding:20px;">
+  İlaç adı : <input list="ilaclar">
+  <datalist id="ilaclar">
+    <option>parol50</option><option>aspirin</option><option>parol</option><option>keppra500</option><option>keppra1000</option><option>parol25</option>
+    <option>parol40</option><option>tiroidilacı</option><option>ataraz</option><option>ialc2</option><option>kanilacı</option><option>parol20</option>
+  </datalist>
+    <br>
+  
+  Cinsiyet : <input type="radio" name="cinsiyet" value="erkek"><label for="erkek">Erkek</label> 
+  <input type="radio" name="cinsiyet" value="kadin"><label for="kadin">Kadın</label><br>
+  Doğum Yılı ve Ayı : <input type="month" name="month"> <br>
+  Kilo : <input type="number" name="kilo" min="1" max="300"> <br>
+  Boy : <input type="number" name="boy" min="10" max="250"><br>
+  Kan Grubu : <input list="kan">
+  <datalist id="kan">
+    <option>0Rh+</option><option>0Rh-</option><option>ARh+</option><option>ARh-</option><option>BRh+</option><option>BRh-</option>
+    <option>ABRh+</option><option>ABRh-</option>
+  </datalist>
+   <br>
+  Varsa Kullandığınız Diğer İlaçlar Listeden seçiniz; <textbox> <br>
+  Kronik rahataızlıklarınız : <textbox> <br>
+  Alerjileriniz : <textbox> <br>
+  <br>
+  <br>
+  <b>İLAÇ İLE ALAKALI YAŞADIĞINIZ YAN ETKİYİ/YAN ETKİLERİ SEÇİNİZ(eğer seçeneklerde yoksa yazınız) </b> <textbox><br>
+   <br><br><input style="color:green;" type="submit" value="Formu Gönder">
+  </div>
+<br>
+<br>
+<br>
+
+
+    </div style="background-color:grey;">
+    
+    <hr>
+
+  </div>
+<footer style="background-color:white; padding:15px;">
+  Görüş ve Önerileriniz Belirtiniz <br>
+  <form style="padding:10px;">
+  AD SOYAD:<input type="text"> <br><br>
+  MESLEK:<input type="text"><br><br>
+  E-MAİL:<input type="email"> <br><br>
+  METİN: <br><textarea name="metin" cols="20" rows="5"></textarea><br>
+  <input type="submit" value="Gönder">
+  </form>
+<hr>
+Tüm Hakkı Saklıdır by Aynur SÖNMEZ <br><b>TÜBİTAK</b> 
+</footer>
+
+</body>
+</html>
